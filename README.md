@@ -7,7 +7,6 @@
     <title>Li-Jia-Xin</title>
     <style>
         @import url("https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap");
-
         @import url(CSS/body.css);
         @import url(CSS/title.css);
         @import url(CSS/skill.css);
