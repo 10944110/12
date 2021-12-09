@@ -1,0 +1,110 @@
+.bar{
+  box-sizing:border-box;
+}
+.container {
+  margin: 8px 40px 8px 40px;
+
+  background-color: #dddddd;
+}
+.bartext{
+  font-style: italic;
+  font-size: 30px;
+}
+.skills {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bolder;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+}
+.C {
+  width: 80%; 
+  background-color: #d6dbbb;
+  animation: C 6s infinite;
+}
+@keyframes C{
+  0%
+  {
+      width:0%;
+  }
+  50%
+  {
+      width: 80%;
+  }
+}
+.Java {
+  width: 75%; 
+  background-color: #b1c9d3;
+  animation: Java 6s infinite;
+}
+@keyframes Java{
+  0%
+  {
+      width:0%;
+  }
+  50%
+  {
+      width: 75%;
+  }
+}
+.HTML {
+  width: 60%; 
+  background-color: #ead0de;
+  animation: HTML 6s infinite;
+}
+@keyframes HTML{
+  0%
+  {
+      width:0%;
+  }
+  50%
+  {
+      width: 60%;
+  }
+}
+.CSS {
+  width: 55%; 
+  background-color: #c9cfe9;
+  animation: CSS 6s infinite;
+}
+@keyframes CSS{
+  0%
+  {
+      width:0%;
+  }
+  50%
+  {
+      width: 55%;
+  }
+}
+.Python{
+  width: 30%; 
+  background-color: #919fc6;
+  animation: Python 6s infinite;
+}
+@keyframes Python{
+  0%
+  {
+      width:0%;
+  }
+  50%
+  {
+      width: 30%;
+  }
+}
+.JavaScript{
+  width: 25%; 
+  background-color: #d4b192;
+  animation: JavaScript 6s infinite;
+}
+@keyframes JavaScript{
+  0%
+  {
+      width:0%;
+  }
+  50%
+  {
+      width: 25%;
+  }
+}

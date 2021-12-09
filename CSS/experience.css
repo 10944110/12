@@ -1,0 +1,74 @@
+.experience{
+  font-family: monospace;
+  text-align: center;
+  margin:30px 150px 30px 150px;
+}
+
+.image{
+  height: 220px;
+  width: 350px;
+}
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count:infinite;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+  box-sizing: border-box;
+}
+#semester1 {background-color: #d6dbbb;}
+#semester2 {background-color: #b1c9d3;}
+#semester3 {background-color: #c9cfe9;}
+ /* Style buttons */
+.button {
+  background-color: black;
+  border: none;
+  padding: 12px 30px;
+  font-size: 26px;
+}
+.list1{
+  columns: 2;
+  font-family: 'Noto Sans TC',sans-serif;
+}
+.font1{
+  font-size: 26px;
+  -webkit-column-break-after: always;
+}
+.font2{
+  font-size: 26px;
+  -webkit-column-break-after: always;
+}
+

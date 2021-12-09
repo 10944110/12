@@ -1,0 +1,37 @@
+.project{
+    font-family: monospace;
+    text-align: center;
+    margin:30px 150px 30px 150px;
+
+  }
+ 
+  .accordion {
+    background-color: #b1bbc7;
+    color: #444;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 26px;
+    transition: 0.4s;
+    
+  }
+  
+  .active, .accordion:hover {
+    background-color: #c0acc5; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #876fa1;
+    overflow: hidden;
+  }
+  .last{
+      text-align: center;
+      columns: 2;
+  }
+  .font3{
+    -webkit-column-break-after: always;
+  }

@@ -1,0 +1,10 @@
+.skill{
+    font-family: monospace;
+    text-align: center;
+    background-color: #7197a4;
+    margin:30px 100px 30px 100px;
+    border-color: #b1bbc7;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 100px;
+}
