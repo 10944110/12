@@ -8,7 +8,7 @@
   height: 220px;
   width: 350px;
 }
-img:hover {
+.image:hover {
   animation: shake 0.5s;
   animation-iteration-count:infinite;
 }
