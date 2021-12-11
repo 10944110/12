@@ -1,0 +1,45 @@
+.about{
+    font-family: monospace;
+    text-align: center;
+    background-color: #7197a4;
+    margin:30px 100px 30px 100px;
+    border-color: #b1bbc7;
+    border-width: 5px;
+    border-style: dotted;
+    border-radius: 100px;
+}
+.text6{
+    font-size: 32px;
+}
+.aboutme{
+    margin:0px 200px 10px 200px;
+    font-size: 28px;
+    columns: 2;
+    column-gap: 100px;
+}
+.school{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+}
+.Education{
+    border-radius: 80px;
+    background-color:darkslateblue;
+    
+}
+.jobs{
+    border-radius: 80px;
+    background-color:lightcoral;
+    -webkit-column-break-before: always;
+}
+.job{
+    width: 100px;
+    height: 100px;
+    
+}
+.visit{
+    background-color:lightcoral;
+    border: none;
+    padding: 5px 5px;
+    font-size: 22px;
+}
